@@ -48,8 +48,9 @@ export const PROVIDERS = {
     baseUrl: "https://openrouter.ai/api/v1/chat/completions",
     keyHelp: "Free key: openrouter.ai/keys (no card). Pick any model ending in \":free\".",
     models: [
-      { id: "meta-llama/llama-3.3-70b-instruct:free", label: "Llama 3.3 70B (free)" },
-      { id: "mistralai/mistral-7b-instruct:free", label: "Mistral 7B (free)" },
+       { id: "openrouter/free", label: "Auto (recommended)" },
+    { id: "openai/gpt-oss-120b:free", label: "GPT-OSS 120B (free)" },
+    { id: "z-ai/glm-4.5-air:free", label: "GLM 4.5 Air (free)" },
     ],
     supportsImages: false,
   },
